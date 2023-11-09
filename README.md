@@ -1,10 +1,13 @@
 **Overview of the Analysis:
 **
+
 The purpose of this analysis is to develop a deep learning model using neural networks to predict whether charitable organizations that have received funding from Alphabet Soup will be successful. The model will be trained on historical data related to charitable organizations and their success in utilizing funding. The goal is to create a predictive model that can assess the likelihood of success for new applicants, thereby helping Alphabet Soup make informed decisions regarding where to allocate their resources.
 
-Results:
+**Results:
+**
 
-Data Preprocessing:
+**Data Preprocessing:
+**
 
 Target Variable: The target variable for the model is "IS_SUCCESSFUL," which indicates whether a charitable organization was successful (1) or not (0).
 
@@ -14,7 +17,9 @@ Application data (e.g., status, ask amount).
 Categorical variables (e.g., charity names, income amounts).
 Variables to Remove: No variables need to be removed from the input data, as all of them are either targets or features.
 
-Compiling, Training, and Evaluating the Model:
+**Compiling, Training, and Evaluating the Model:
+**
+
 
 Model Architecture: The deep learning model was designed with the following architecture:
 
